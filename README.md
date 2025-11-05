@@ -1,16 +1,24 @@
-# React + Vite
+# Paleta de Colores con LocalStorage  
+Proyecto: React + Vite + Bootstrap + React-Bootstrap  
+Autor: Facundo Javier Vera  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧩 Descripción  
+Este proyecto permite ingresar un color desde un formulario y almacenarlo en el navegador usando `localStorage`.  
+Luego se muestran los colores guardados como tarjetas, donde cada tarjeta muestra el color, su nombre y un botón para borrar.  
+La interfaz está construida con React, creada a través de Vite, y usa Bootstrap junto a React‑Bootstrap para los estilos.
 
-Currently, two official plugins are available:
+## ✅ Funcionalidades  
+- Ingresar un color (por ejemplo nombre “Blue”, o un valor hexadecimal `#00ff00`).  
+- Guardar ese color al hacer clic en “Guardar”.  
+- Persistencia de los colores usando `localStorage`: al recargar la página, los colores guardados permanecen.  
+- Mostrar varios colores guardados como tarjetas: cada tarjeta muestra el color visualmente, su valor, y un botón “Borrar”.  
+- Borrar un color: al hacer clic en “Borrar”, se elimina de la lista y del `localStorage`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas  
+- React (creada con Vite)  
+- Vite (plantilla rápida de desarrollo)  
+- Bootstrap & React-Bootstrap para el diseño y componentes visuales  
+- `localStorage` de la Web API para almacenamiento persistente en el navegador  
+- Git para control de versiones
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Estructura del proyecto  
