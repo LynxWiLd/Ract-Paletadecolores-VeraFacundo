@@ -22,3 +22,14 @@ La interfaz está construida con React, creada a través de Vite, y usa Bootstra
 - Git para control de versiones
 
 ## 📁 Estructura del proyecto  
+/public
+/src
+├── components
+│ ├── FormColor.jsx ← componente del formulario de ingreso de color
+│ ├── ColorCard.jsx ← componente para mostrar cada tarjeta de color
+├── App.jsx ← componente principal
+└── main.jsx ← punto de entrada
+.gitignore
+package.json
+vite.config.js
+README.md
